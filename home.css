@@ -1,0 +1,48 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Poppins:wght@300&family=Sometype+Mono:wght@500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    /* font-family: 'Onest', sans-serif; */
+    font-family: 'Poppins', sans-serif; 
+      box-sizing: border-box;
+}
+body{
+    /* background: rgb(2,0,36); */
+
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,8,112,1) 15%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+background-attachment: fixed;
+}
+
+h2{
+    color:#fff;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.card{
+    border-radius:13px ;
+    box-shadow: 2px 2px 3px black;
+    
+}
+.card-title{
+    font-size: 20px !important;
+    font-weight: 700;
+    color: crimson;
+    padding-bottom: 3px;
+}
+
+ .card-subtitle{
+    color: midnightblue !important;
+    
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-text{
+color: black !important;
+font-weight: 600 !important;
+}
+

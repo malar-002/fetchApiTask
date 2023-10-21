@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Poppins:wght@300&family=Sometype+Mono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navbar{
+    background-color: rgb(55, 11, 95);
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 1000;
+    
+    
+}
+.navbar a{
+    float: right;
+    display: block;
+    padding: 20px;
+    margin: 0px 10px ;
+    text-decoration: none;
+    color: azure;
+    cursor: pointer;
+    font-weight: 700;
+  
+}
+
+a:hover{
+    text-decoration:underline;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+   
+  
+}
+
+form{
+    width:400px;
+    background-color: rgb(55, 11, 95);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 2px 3px black;
+
+}
+form h2{
+color:#fff;
+padding:15px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+button{
+    padding:10px 0px;
+   margin: 10px 90px;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: #000;
+    color: white;
+    transition-duration: 0.7s;
+}
+.instruction{
+    font-size: 13px;
+    padding-top:10px;
+    font-weight: 600;
+}
+span{
+    color:#fff;
+}
+
+#home .container{
+   
+    position:relative;  
+}
+
+.homeHeading{
+   
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px;
+}
+
+
+.footer{
+   
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(55, 11, 95);
+    padding: 8px 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer p{
+    padding: 6px;
+}
+   
+
+
+
+
+
