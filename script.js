@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('signupUsername').value = ''; 
                 document.getElementById('signupPassword').value = '';
 
-                // Perform actions after successful login (e.g., redirect to another page)
             } else {
                 alert('Invalid username or password. Please try again.');
             }
